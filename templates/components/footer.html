@@ -1,0 +1,42 @@
+{% set current_year = now.year %}
+<footer class="py-12 px-8 bg-zinc-900/50 border-t border-zinc-800">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-center md:text-left">
+                <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-amber-400 to-red-600 bg-clip-text text-transparent">Himonshu's Portfolio</h3>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <a
+                    href="https://github.com/{{ github_username or 'himonshu' }}"
+                    target="_blank"
+                    class="text-zinc-400 hover:text-amber-400 transition-colors duration-300"
+                >
+                    GitHub
+                </a>
+                <a href="mailto:{{ email or 'himonshu@example.com' }}" class="text-zinc-400 hover:text-red-400 transition-colors duration-300"> Email </a>
+                <a href="{{ linkedin_url or '#' }}" target="_blank" class="text-zinc-400 hover:text-orange-400 transition-colors duration-300"> LinkedIn </a>
+            </div>
+        </div>
+
+        <div class="mt-8 pt-8 border-t border-zinc-800 text-center">
+            <div class="flex flex-col items-center gap-3">
+                <div class="text-zinc-400">&mdash; Built with ❤️ and late-night coding sessions &mdash;</div>
+                <div class="flex items-center gap-3 flex-wrap justify-center text-sm">
+                    <a href="https://www.python.org/" target="_blank" class="text-zinc-300 hover:text-amber-400 transition-colors duration-300">Python</a>
+                    <span class="text-zinc-600">•</span>
+                    <a href="https://fastapi.tiangolo.com/" target="_blank" class="text-zinc-300 hover:text-amber-400 transition-colors duration-300"
+                        >FastAPI</a
+                    >
+                    <span class="text-zinc-600">•</span>
+                    <a href="https://tailwindcss.com" target="_blank" class="text-zinc-300 hover:text-amber-400 transition-colors duration-300">TailwindCSS</a>
+                    <span class="text-zinc-600">•</span>
+                    <a href="https://jinja.palletsprojects.com/" target="_blank" class="text-zinc-300 hover:text-amber-400 transition-colors duration-300"
+                        >Jinja2</a
+                    >
+                </div>
+                <div class="text-xs text-zinc-500 mt-2">© {{ current_year or 2025 }} Himonshuuu</div>
+            </div>
+        </div>
+    </div>
+</footer>

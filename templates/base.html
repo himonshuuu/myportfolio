@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Himonshu's Portfolio{% endblock %}</title>
+        <meta name="description" content="{% block description %}{% endblock %}" />
+        <meta name="keywords" content="{% block keywords %}Himonshu, Portfolio, Full-stack, Developer, Python, FastAPI, React, TailwindCSS{% endblock %}" />
+        <meta name="author" content="Himonshu" />
+        <meta property="og:title" content="{% block og_title %}Himonshu's Portfolio{% endblock %}" />
+        <meta property="og:description" content="{% block og_description %}{% endblock %}" />
+        <meta property="og:image" content="{{ url_for('static', path='/images/image.png') }}" />
+
+        <meta property="og:type" content="website" />
+        <link rel="icon" href="{{ url_for('static', path='/images/favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', path='/styles/index.css') }}?v={{ time }}" />
+        <script src="{{ url_for('static', path='/scripts/index.js') }}?v={{ time }}"></script>
+        {% block extra_head %}{% endblock %}
+    </head>
+    <body class="bg-gradient-to-br from-zinc-900 via-black to-zinc-900">
+        {% block content %}{% endblock %}
+    </body>
+</html>

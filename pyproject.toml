@@ -1,0 +1,13 @@
+[project]
+name = "localserver"
+version = "0.1.0"
+description = "IDK BRO"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.3",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.4",
+    "jinja2>=3.1.0",
+]

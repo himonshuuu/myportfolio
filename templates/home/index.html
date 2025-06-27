@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+
+<main class="text-white min-h-screen">
+    {% include "components/hero.html" %} {% include "components/techstack.html" %} {% include "components/projects.html" %} {% include "components/about.html"
+    %} {% include "components/contact.html" %} {% include "components/footer.html" %}
+
+    <button
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="fixed bottom-8 right-8 bg-gradient-to-r from-amber-500 to-red-500 text-white p-3 rounded-full shadow-lg hover:shadow-amber-500/30 transition-all duration-300 transform hover:scale-110 opacity-0 pointer-events-none"
+        id="scrollTop"
+    >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+</main>
+
+{% endblock %}

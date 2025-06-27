@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Waykey",
+        "emoji": "⌨️",
+        "color": "amber",
+        "description": "A Linux tool that captures keyboard input events and gives you real-time state updates. Perfect for keystroke monitoring.",
+        "tags": [{ "text": "C" }, { "text": "Linux" }, { "text": "Input Events" }],
+        "demo_link": "#",
+        "github_link": "#"
+    },
+    {
+        "name": "ExStore",
+        "emoji": "🗄️",
+        "color": "purple",
+        "description": "A Redis-like in-memory database built with Elixir. Fast, concurrent, and perfect for prototyping or learning about distributed systems.",
+        "tags": [{ "text": "Elixir" }, { "text": "Database" }, { "text": "In-memory" }],
+        "demo_link": "#",
+        "github_link": "#"
+    },
+    {
+        "name": "Meaning Khoj",
+        "emoji": "🔍",
+        "color": "blue",
+        "description": "A Chrome extension that helps users quickly find word definitions and translations while browsing.",
+        "tags": [{ "text": "HTML" }, { "text": "CSS" }, { "text": "JavaScript" }, { "text": "Chrome Extension" }],
+        "demo_link": "#",
+        "github_link": "#"
+    },
+    {
+        "name": "Quiz CLI",
+        "emoji": "❓",
+        "color": "green",
+        "description": "A simple Quiz CLI built with Python. Test your knowledge right from your terminal.",
+        "tags": [{ "text": "Python" }, { "text": "CLI" }, { "text": "Rich" }],
+        "demo_link": "#",
+        "github_link": "#"
+    },
+    {
+        "name": "Saaavn.py",
+        "emoji": "🎵",
+        "color": "red",
+        "description": "A CLI tool to download songs from JioSaavn. Fast, reliable, and easy to use.",
+        "tags": [{ "text": "Python" }, { "text": "Httpx" }, { "text": "Rich" }, { "text": "CLI" }],
+        "demo_link": "#",
+        "github_link": "#"
+    },
+    {
+        "name": "More projects",
+        "emoji": "📦",
+        "color": "gray",
+        "description": "Check out more projects on my GitHub profile.",
+        "tags": [{ "text": "GitHub" }],
+        "demo_link": "https://github.com/himonshu",
+        "github_link": "https://github.com/himonshu"
+    }
+]

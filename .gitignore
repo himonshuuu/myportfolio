@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+
+secrets.json
+key.pem
+cert.pem
+
+dnsupdate
+node_modules
